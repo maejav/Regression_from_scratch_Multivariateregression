@@ -20,9 +20,21 @@ This project demonstrates how to predict student scores based on hours studied u
   - `Hours`: Number of hours studied
   - `Scores`: Score obtained
 
-### 📊 Visualization
-```python
-plt.scatter(df["Hours"], df["Scores"], color="skyblue")
-plt.xlabel("Study Hours")
-plt.ylabel("Scores")
-plt.title("Student Scores Based on Study")
+## 🏡 California Housing Price Prediction
+### 🔍 Overview
+This project builds a regression pipeline to predict California house prices using:
+
+    Outlier handling
+
+    Feature engineering
+
+    Feature scaling
+
+    Linear and polynomial regression
+
+    Regularization with Ridge
+
+### 📂 Dataset
+
+    Source: fetch_california_housing() from sklearn.datasets
+    Target: MedianHouseValue
